@@ -1,0 +1,154 @@
+body {
+    background-color: #010F2C;
+    font-family: 'Gretoon', sans-serif;
+}
+
+header {
+    height: 12vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-section {
+    padding: 5px 10px 5px 10px;
+}
+
+.card-section {
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 0px #CE1598;
+    height: 60px;
+    cursor: pointer;
+}
+
+.card-section>h3 {
+    /* color: #CE1598; */
+    font-family: 'Gretoon';
+}
+h5, p{
+    font-family: sans-serif;
+    color: white;
+}
+h1, h2, h3{
+    background: -webkit-linear-gradient(#FBD53A, #CE1598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+i {
+    margin-right: 15px;
+    box-shadow: red(15 0 10 15 0);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#010f2cc9, #010f2ca6), url(images/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero-text-ariya, .product-ariya{
+    max-width: 50%;
+}
+.hero-text-ariya{
+    margin: 65px;
+}
+.hero-text-ariya>h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 144.4%;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    width: 350px;
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 0px #CE1598;
+    cursor: pointer;
+}
+.product-ariya{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-image: linear-gradient(#2c2901c9, #27012ca6);
+    border: 1px solid rgb(87, 0, 128);
+    padding: 25px;
+    margin: 80px;
+    border-radius: 10px;
+}
+.product-prising-section{
+    border: 1px solid rgb(87, 0, 128);
+    background-image: linear-gradient(#fbd43a75, #ce159767);
+    border-radius: 10px;
+}
+.product-prising-section>h4{
+    color: white;
+    font-weight: 300;
+}
+.product-prising-section>h4>span{
+    color: #01FED1;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.price-quentity{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 35px;
+}
+.product-cal{
+    display: inline-flex;
+    align-items: center;
+}
+.product-cal>p{
+    color: #010F2C;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+.product-cal>p:last-child{
+    border-radius: 10px;
+}
+
+.low-btn, .high-btn{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    background-color: #CE1598;
+    border-radius: 5px 0px 0px 5px;
+}
+.high-btn{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.product-cal>h5{
+    padding: 0px 5px 0px 5px;
+}
+.buynow-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 0px #CE1598;
+    cursor: pointer;
+}

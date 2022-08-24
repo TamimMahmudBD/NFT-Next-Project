@@ -1,0 +1,44 @@
+@media screen and (max-width: 720px) {
+   header {
+      height: 18vh;
+   }
+
+   nav {
+      flex-direction: column;
+   }
+
+   .logo-section {
+      display: flex;
+      flex-direction: column;
+      margin: 0px 15px 0px 15px;
+   }
+
+   .card-section {
+      margin: 15px;
+      text-align: center;
+   }
+   .card-section>h3{
+      font-weight: 300;
+
+   }
+   .hero-section{
+      display: block;
+   }
+   .hero-text-ariya {
+      margin: 15px;
+   }
+   .hero-text-ariya>h1{
+      font-size: 35px;
+
+   }
+  
+  .hero-text-ariya, .product-ariya {
+      max-width: 90%;
+  }
+  .product-ariya{
+   margin: 0;
+  }
+  .product-cal>p{
+   width: 120px;
+  }
+}
