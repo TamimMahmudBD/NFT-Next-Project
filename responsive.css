@@ -1,3 +1,8 @@
+@media screen and (min-width: 1280px){
+   .hero-section{
+      justify-content: space-around
+   }
+}
 @media screen and (min-width: 786px){
    .hero-section{
       /* height: 80vh;
@@ -81,6 +86,7 @@
    }
    .hero-section{
       flex-direction: column;
+      margin: 10px;
    }
    .hero-text-ariya>h1 {
       font-size: 25px;
@@ -98,10 +104,10 @@
    }
 
    .pro-output {
-      width: 30px;
+      width: 50px;
    }
 
    .pro-price {
-      width: 80px;
+      width: 95px;
    }
 }

@@ -1,11 +1,20 @@
+
 body {
-    background-color: #010F2C;
     font-family: 'Gretoon', "Audiowide", sans-serif;
+    background-color: #010F2C; 
+    background:  linear-gradient(#010f2c77, #010f2c77), url(images/bg-image-copy-3.png) ;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 0;
+    padding: 0;
 }
-/* 
+
 header {
-    height: 12vh;
-} */
+    /* height: 12vh; */
+    padding-top: 15px;
+    background-color: #010F2C; 
+    overflow: hidden;
+}
 
 nav {
     display: flex;
@@ -14,6 +23,8 @@ nav {
 
 .logo-section {
     padding: 5px 10px 5px 10px;
+    margin-right: 33%;
+
 }
 
 .card-section {
@@ -50,17 +61,17 @@ i {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: linear-gradient(#010f2ccf, #010f2c82), url(images/bg-image-copy-1.jpg);
+    /* background-image: linear-gradient(#010f2ccf, #010f2c82), url(images/bg-image-copy-4.png);
     background-size: cover;
     background-position: center;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; */
 }
 .hero-text-ariya, .product-ariya{
     max-width: 50%;
 }
 .hero-text-ariya{
-    margin: 65px;
+    margin:  0 0 0 25px;
 }
 .hero-text-ariya>h1 {
     font-style: normal;
@@ -86,7 +97,7 @@ i {
 .product-ariya{
     text-align: center;
     backdrop-filter: blur(5px);
-    background-image: linear-gradient(#26093226, #12121200);
+    background-image: linear-gradient(#0f0414c2, #060505a8);  /*linear-gradient(#26093226, #12121200);*/
     border: 1px solid rgb(87, 0, 128);
     padding: 8px 12px 8px 12px ;
     margin: 10px 20px 10px 20px;
@@ -164,8 +175,8 @@ i {
     font-family: 'Gretoon', sans-serif;
     border: 0;
     background-color: white;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 250px;
     margin: 5px 25px 25px 25px ;
     border-radius: 10px;
     box-shadow: 5px 5px 0px #CE1598;
