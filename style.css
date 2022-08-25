@@ -50,7 +50,8 @@ i {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: linear-gradient(#010f2c4f, #010f2c40), url(images/bg-image-copy.jpg);    background-size: cover;
+    background-image: linear-gradient(#010f2ccf, #010f2c82), url(images/bg-image-copy-1.jpg);
+    background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
