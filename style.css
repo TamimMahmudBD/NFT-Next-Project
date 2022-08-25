@@ -20,7 +20,7 @@ nav {
     background-color: white;
     padding: 0px 20px 0px 20px;
     border-radius: 10px;
-    box-shadow: 9px 8px 0px #CE1598;
+    box-shadow:5px 5px 0px #CE1598;
     height: 45px;
     cursor: pointer;
 }
@@ -76,7 +76,7 @@ i {
     width: 250px;
     margin-top: 35px;
     border-radius: 10px;
-    box-shadow: 9px 8px 0px #CE1598;
+    box-shadow: 5px 5px 0px #CE1598;
     cursor: pointer;
 }
 .hero-btn>h3{
@@ -167,6 +167,6 @@ i {
     width: 200px;
     margin: 5px 25px 25px 25px ;
     border-radius: 10px;
-    box-shadow: 9px 8px 0px #CE1598;
+    box-shadow: 5px 5px 0px #CE1598;
     cursor: pointer;
 }
