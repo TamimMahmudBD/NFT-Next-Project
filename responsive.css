@@ -1,10 +1,18 @@
-@media screen and (max-width: 720px) {
-   header {
+@media screen and (min-width: 786px){
+   .hero-section{
+      /* height: 80vh;
+      overflow: hidden; */
+   } 
+
+}
+@media screen and (max-width: 740px) {
+   /* header {
       height: 18vh;
-   }
+   } */
 
    nav {
       flex-direction: column;
+      margin-bottom: 30px;
    }
 
    .logo-section {
@@ -17,60 +25,83 @@
       margin: 15px;
       text-align: center;
    }
-   .card-section>h3{
+
+   .card-section>h3 {
       font-weight: 300;
    }
-   .hero-section{
+
+   .hero-section {
       display: block;
-      height: 100vh;
+      /* height: 100vh; */
       margin-bottom: 15px;
    }
+
    .hero-text-ariya {
-      margin: 15px;
+      margin: 8px 8px 25px 8px;
    }
-   .hero-text-ariya>h1{
-      font-size: 35px;
+
+   .hero-text-ariya>h1 {
+      font-size: 30px;
    }
-  .hero-btn>h3{
-   font-size: 12px;
-  }
-  .hero-text-ariya, .product-ariya {
-      max-width: 90%;
-  }
-  .product-ariya{
-   margin: 0px 4px 0px 4px;
-  }
-  .pro-output {
-   width: 60px;
-  }
-  .pro-price{
-   width: 120px;
-  }
-}
-@media screen and (max-width: 425px) {
-   header {
-      height: 21vh;
-   }
-   .logo-section{
-      margin: 0px 45px 0px 45px;
-   }
-   .card-section {
-      margin: 10px 40px 0px 40px;
-   }
-   .hero-text-ariya>h1{
-      font-size: 25px;
-   }
-   .hero-btn{
-      height: 56px;
-      margin-top: 21px;
-   }
-   .hero-btn>h3{
+
+   .hero-btn>h3 {
       font-size: 12px;
    }
+
+   .hero-text-ariya,
+   .product-ariya {
+      max-width: 90%;
+   }
+
+   .product-ariya {
+      margin: 0px 4px 0px 4px;
+   }
+
    .pro-output {
       width: 60px;
-     }
-     .pro-price{
+   }
+
+   .pro-price {
       width: 120px;
-     }
+   }
+}
+
+@media screen and (max-width: 425px) {
+   /* header {
+      height: 21vh;
+   } */
+
+   .logo-section {
+      margin: 0px 45px 0px 45px;
+   }
+
+   .card-section {
+      /* display: none; */
+      margin: 10px 40px 0px 40px;
+   }
+   .hero-section{
+      flex-direction: column;
+   }
+   .hero-text-ariya>h1 {
+      font-size: 25px;
+      text-align: center
+   }
+
+   .hero-btn {
+      height: 56px;
+      width: auto;
+      margin-top: 21px;
+   }
+
+   .hero-btn>h3 {
+      font-size: 12px;
+   }
+
+   .pro-output {
+      width: 30px;
+   }
+
+   .pro-price {
+      width: 80px;
+   }
 }

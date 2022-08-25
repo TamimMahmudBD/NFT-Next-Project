@@ -2,10 +2,10 @@ body {
     background-color: #010F2C;
     font-family: 'Gretoon', sans-serif;
 }
-
+/* 
 header {
     height: 12vh;
-}
+} */
 
 nav {
     display: flex;
@@ -21,13 +21,14 @@ nav {
     padding: 0px 20px 0px 20px;
     border-radius: 10px;
     box-shadow: 9px 8px 0px #CE1598;
-    height: 60px;
+    height: 45px;
     cursor: pointer;
 }
 
 .card-section>h3 {
     /* color: #CE1598; */
     font-family: 'Gretoon';
+    font-size: 12px;
 }
 h5, p{
     font-family: sans-serif;
@@ -49,8 +50,7 @@ i {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 85vh;
-    background-image: linear-gradient(#010f2cc9, #010f2ca6), url(images/bg-image.jpg);
+    background-image: linear-gradient(#010f2cc9, #010f2ca6), url(images/bg-image-copy.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -74,18 +74,21 @@ i {
     align-items: center;
     background-color: white;
     height: 60px;
-    width: 350px;
+    width: 250px;
     margin-top: 35px;
     border-radius: 10px;
     box-shadow: 9px 8px 0px #CE1598;
     cursor: pointer;
 }
+.hero-btn>h3{
+    font-size: 13px;
+}
 .product-ariya{
     text-align: center;
     backdrop-filter: blur(5px);
-    background-image: linear-gradient(#260932c9, #121212f5);
+    background-image: linear-gradient(#26093226, #12121200);
     border: 1px solid rgb(87, 0, 128);
-    padding: 25px;
+    padding: 8px 12px 8px 12px ;
     margin: 10px 20px 10px 20px;
     border-radius: 10px;
 }
@@ -94,15 +97,19 @@ i {
     background-image: linear-gradient(#fbd43a75, #ce159767);
     border-radius: 10px;
 }
-.product-prising-section>h4{
-    color: white;
+.product-prising-section>h3{
     font-size: 12px;
-    font-weight: 300;
+}
+.product-prising-section>h4{
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
 }
 .product-prising-section>h4>span{
     color: #01FED1;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 800;
 }
 .price-quentity{
     display: flex;
@@ -116,8 +123,8 @@ i {
 }
 .pro-output, .pro-price{
     color: #010F2C;
-    height: 40px;
-    width: 100px;
+    height: 33px;
+    width: 44px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -126,14 +133,14 @@ i {
 }
 .pro-price{
     border-radius: 10px;
-    width: 150px;
+    width: 100px;
 }
 
 .low-btn, .high-btn{
     font-size: 20px;
     font-weight: 400;
     width: 40px;
-    height: 40px;
+    height: 33px;
     border: 0px;
     background-color: #CE1598;
     border-radius: 10px 0px 0px 10px;
@@ -145,13 +152,21 @@ i {
 .product-cal>h5{
     padding: 0px 5px 0px 5px;
 }
+.buynow-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .buynow-btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Gretoon', sans-serif;
+    border: 0;
     background-color: white;
-    height: 60px;
-    margin: 25px;
+    height: 40px;
+    width: 200px;
+    margin: 5px 25px 25px 25px ;
     border-radius: 10px;
     box-shadow: 9px 8px 0px #CE1598;
     cursor: pointer;
