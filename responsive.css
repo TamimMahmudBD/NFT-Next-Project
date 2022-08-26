@@ -86,7 +86,7 @@
    }
    .hero-section{
       flex-direction: column;
-      margin: 10px;
+      padding: 10px;
    }
    .hero-text-ariya>h1 {
       font-size: 25px;
