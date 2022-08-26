@@ -104,7 +104,9 @@
    .hero-btn>h3 {
       font-size: 12px;
    }
-
+   .product-ariya{
+      margin: 15px;
+   }
    .pro-output {
       width: 50px;
    }
